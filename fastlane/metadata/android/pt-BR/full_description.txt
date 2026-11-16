@@ -1,0 +1,27 @@
+O Medwi lembra você de tomar seus remédios na hora certa e guarda um histórico simples do que foi tomado. Tudo fica no seu celular: sem conta, sem anúncios, sem rastreamento e sem precisar de internet.
+
+<b>Lembretes</b>
+• Alarmes exatos que resistem a reinício, economia de bateria e modo soneca do Android
+• Notificações fixas com Tomar, Adiar e Pular, repetidas até você responder
+• "Tomar todos" quando vários remédios caem no mesmo horário
+• Um checklist para corrigir os ajustes do celular que bloqueiam lembretes (bateria, início automático em Xiaomi, Samsung, Huawei, Oppo, Vivo e outros)
+
+<b>Agendas</b>
+• Todo dia, a cada X dias/semanas/meses, dias da semana, ciclos (ex.: 21+7) ou só quando precisar
+• Organizador de horários: N doses por dia a cada 24/N horas; mover um horário ajusta os outros
+• Dose variável para desmame ou aumento gradual
+
+<b>Remédios</b>
+• Concentração (125 mg, 10 mg/ml…) e unidades de dose reais (comprimidos, ml, gotas, jatos, UI…)
+• Escolha o formato e as cores do comprimido para reconhecê-lo num relance
+• Controle de estoque com lembrete de reposição e "+1 caixa"
+• Pause ou encerre um tratamento sem perder o histórico
+• Sugestões de nomes offline a partir de dados públicos da ANVISA e da FDA (EUA)
+
+<b>Histórico e backup</b>
+• Calendário mensal de adesão; toque num dia para ver e corrigir o que foi tomado
+• Widget na tela inicial com as próximas doses
+• Bloqueio opcional com a digital, o rosto ou o PIN do celular
+• Backup do Android na sua conta Google, cópia automática diária num arquivo que você escolhe (por exemplo no Google Drive) e exportação/importação manual
+
+O Medwi é software livre, licenciado sob a GPL-3.0-or-later.

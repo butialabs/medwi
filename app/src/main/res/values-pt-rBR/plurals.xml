@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="unit_pill">
+        <item quantity="one">%1$s comprimido</item>
+        <item quantity="other">%1$s comprimidos</item>
+        <item quantity="many">%1$s comprimidos</item>
+    </plurals>
+    <plurals name="unit_capsule">
+        <item quantity="one">%1$s cápsula</item>
+        <item quantity="other">%1$s cápsulas</item>
+        <item quantity="many">%1$s cápsulas</item>
+    </plurals>
+    <plurals name="unit_ml">
+        <item quantity="one">%1$s ml</item>
+        <item quantity="other">%1$s ml</item>
+        <item quantity="many">%1$s ml</item>
+    </plurals>
+    <plurals name="unit_drop">
+        <item quantity="one">%1$s gota</item>
+        <item quantity="other">%1$s gotas</item>
+        <item quantity="many">%1$s gotas</item>
+    </plurals>
+    <plurals name="unit_puff">
+        <item quantity="one">%1$s jato</item>
+        <item quantity="other">%1$s jatos</item>
+        <item quantity="many">%1$s jatos</item>
+    </plurals>
+    <plurals name="unit_unit">
+        <item quantity="one">%1$s UI</item>
+        <item quantity="other">%1$s UI</item>
+        <item quantity="many">%1$s UI</item>
+    </plurals>
+    <plurals name="unit_sachet">
+        <item quantity="one">%1$s sachê</item>
+        <item quantity="other">%1$s sachês</item>
+        <item quantity="many">%1$s sachês</item>
+    </plurals>
+    <plurals name="unit_application">
+        <item quantity="one">%1$s aplicação</item>
+        <item quantity="other">%1$s aplicações</item>
+        <item quantity="many">%1$s aplicações</item>
+    </plurals>
+    <plurals name="unit_patch">
+        <item quantity="one">%1$s adesivo</item>
+        <item quantity="other">%1$s adesivos</item>
+        <item quantity="many">%1$s adesivos</item>
+    </plurals>
+    <plurals name="unit_suppository">
+        <item quantity="one">%1$s supositório</item>
+        <item quantity="other">%1$s supositórios</item>
+        <item quantity="many">%1$s supositórios</item>
+    </plurals>
+    <plurals name="unit_ampoule">
+        <item quantity="one">%1$s ampola</item>
+        <item quantity="other">%1$s ampolas</item>
+        <item quantity="many">%1$s ampolas</item>
+    </plurals>
+    <plurals name="unit_spoon">
+        <item quantity="one">%1$s colher</item>
+        <item quantity="other">%1$s colheres</item>
+        <item quantity="many">%1$s colheres</item>
+    </plurals>
+    <plurals name="unit_mg">
+        <item quantity="one">%1$s mg</item>
+        <item quantity="other">%1$s mg</item>
+        <item quantity="many">%1$s mg</item>
+    </plurals>
+</resources>

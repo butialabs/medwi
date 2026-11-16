@@ -1,0 +1,27 @@
+Medwi reminds you to take your medicines on time and keeps a simple history of what you took. Everything stays on your phone: no account, no ads, no tracking and no internet connection required.
+
+<b>Reminders</b>
+• Exact alarms that survive reboots, battery savers and Doze
+• Sticky notifications with Take, Snooze and Skip, repeated until you answer
+• "Take all" when several medicines share a time
+• A checklist to fix the phone settings that block reminders (battery optimization, auto-start on Xiaomi, Samsung, Huawei, Oppo, Vivo and others)
+
+<b>Schedules</b>
+• Every day, every X days/weeks/months, specific weekdays, cycles (e.g. 21+7) or only when needed
+• Automatic time organizer: N doses a day spread every 24/N hours; moving one time shifts the others
+• Variable doses for tapering or titration
+
+<b>Medicines</b>
+• Strength (125 mg, 10 mg/ml…) and real dose units (pills, ml, drops, puffs, IU…)
+• Pick the pill's shape and colors so you recognize it at a glance
+• Stock tracking with refill reminders and "+1 box"
+• Pause or end a treatment without losing its history
+• Offline name suggestions from public U.S. (openFDA) and Brazilian (ANVISA) data
+
+<b>History and backup</b>
+• Monthly adherence calendar; tap a day to see and correct what was taken
+• Home-screen widget with your next doses
+• Optional app lock with your phone's fingerprint, face or PIN
+• Android backup to your Google account, a daily automatic copy to a file you choose (for example in Google Drive), and manual export/import
+
+Medwi is free software licensed under the GPL-3.0-or-later.

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Medwi brand (logo.png) -->
+    <color name="brand_green">#1A7F37</color>
+    <color name="window_background">#F6FBF1</color>
+</resources>

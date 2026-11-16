@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Notification small icon: Medwi kiwi silhouette with the cross cut out. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="#FFFFFF">
+    <group android:translateX="-2.9229" android:translateY="-2.7904"
+        android:scaleX="0.026506" android:scaleY="0.026506">
+        <path android:fillColor="#FFFFFF" android:fillType="evenOdd" android:pathData="M148.0,558.0 a415.0,415.0 0 1,0 830.0,0 a415.0,415.0 0 1,0 -830.0,0 Z M490,382 L641,382 L641,496 L758,496 L758,634 L641,634 L641,745 L490,745 L490,634 L373,634 L373,496 L490,496 Z" />
+    </group>
+</vector>

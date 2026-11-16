@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Medwi mark (kiwi + cross), traced from logo.png. Generated; see README. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:translateX="18" android:translateY="18.6" android:scaleX="0.063436" android:scaleY="0.063436">
+        <!-- dark rind -->
+        <path android:pathData="M148.0,558.0 a415.0,415.0 0 1,0 830.0,0 a415.0,415.0 0 1,0 -830.0,0 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient android:type="linear" android:startX="148.0" android:startY="143.0"
+                    android:endX="978.0" android:endY="973.0"
+                    android:startColor="#2E7A08" android:endColor="#024B0D" />
+            </aapt:attr>
+        </path>
+        <!-- flesh: deeper green at the core, lime-yellow at the edge -->
+        <path android:pathData="M188.0,558.0 a375.0,375.0 0 1,0 750.0,0 a375.0,375.0 0 1,0 -750.0,0 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient android:type="radial" android:centerX="563.0" android:centerY="558.0"
+                    android:gradientRadius="375.0">
+                    <item android:offset="0" android:color="#3FA815" />
+                    <item android:offset="0.45" android:color="#7ECB18" />
+                    <item android:offset="0.85" android:color="#B5E632" />
+                    <item android:offset="1" android:color="#D6F35C" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <group android:rotation="15" android:pivotX="563.0" android:pivotY="558.0">
+            <path android:fillColor="#422E1B"
+                android:pathData="M544.0,286.0 a19.0,38.0 0 1,0 38.0,0 a19.0,38.0 0 1,0 -38.0,0 Z" />
+        </group>
+        <group android:rotation="45" android:pivotX="563.0" android:pivotY="558.0">
+            <path android:fillColor="#422E1B"
+                android:pathData="M544.0,286.0 a19.0,38.0 0 1,0 38.0,0 a19.0,38.0 0 1,0 -38.0,0 Z" />
+        </group>
+        <group android:rotation="75" android:pivotX="563.0" android:pivotY="558.0">
+            <path android:fillColor="#422E1B"
+                android:pathData="M544.0,286.0 a19.0,38.0 0 1,0 38.0,0 a19.0,38.0 0 1,0 -38.0,0 Z" />
+        </group>
+        <group android:rotation="105" android:pivotX="563.0" android:pivotY="558.0">
+            <path android:fillColor="#422E1B"
+                android:pathData="M544.0,286.0 a19.0,38.0 0 1,0 38.0,0 a19.0,38.0 0 1,0 -38.0,0 Z" />
+        </group>
+        <group android:rotation="135" android:pivotX="563.0" android:pivotY="558.0">
+            <path android:fillColor="#422E1B"
+                android:pathData="M544.0,286.0 a19.0,38.0 0 1,0 38.0,0 a19.0,38.0 0 1,0 -38.0,0 Z" />
+        </group>
+        <group android:rotation="165" android:pivotX="563.0" android:pivotY="558.0">
+            <path android:fillColor="#422E1B"
+                android:pathData="M544.0,286.0 a19.0,38.0 0 1,0 38.0,0 a19.0,38.0 0 1,0 -38.0,0 Z" />
+        </group>
+        <group android:rotation="195" android:pivotX="563.0" android:pivotY="558.0">
+            <path android:fillColor="#422E1B"
+                android:pathData="M544.0,286.0 a19.0,38.0 0 1,0 38.0,0 a19.0,38.0 0 1,0 -38.0,0 Z" />
+        </group>
+        <group android:rotation="225" android:pivotX="563.0" android:pivotY="558.0">
+            <path android:fillColor="#422E1B"
+                android:pathData="M544.0,286.0 a19.0,38.0 0 1,0 38.0,0 a19.0,38.0 0 1,0 -38.0,0 Z" />
+        </group>
+        <group android:rotation="255" android:pivotX="563.0" android:pivotY="558.0">
+            <path android:fillColor="#422E1B"
+                android:pathData="M544.0,286.0 a19.0,38.0 0 1,0 38.0,0 a19.0,38.0 0 1,0 -38.0,0 Z" />
+        </group>
+        <group android:rotation="285" android:pivotX="563.0" android:pivotY="558.0">
+            <path android:fillColor="#422E1B"
+                android:pathData="M544.0,286.0 a19.0,38.0 0 1,0 38.0,0 a19.0,38.0 0 1,0 -38.0,0 Z" />
+        </group>
+        <group android:rotation="315" android:pivotX="563.0" android:pivotY="558.0">
+            <path android:fillColor="#422E1B"
+                android:pathData="M544.0,286.0 a19.0,38.0 0 1,0 38.0,0 a19.0,38.0 0 1,0 -38.0,0 Z" />
+        </group>
+        <group android:rotation="345" android:pivotX="563.0" android:pivotY="558.0">
+            <path android:fillColor="#422E1B"
+                android:pathData="M544.0,286.0 a19.0,38.0 0 1,0 38.0,0 a19.0,38.0 0 1,0 -38.0,0 Z" />
+        </group>
+        <!-- cross -->
+        <path android:fillColor="#FAFBF5" android:pathData="M411,496 h309 a38,38 0 0 1 38,38 v62 a38,38 0 0 1 -38,38 h-309 a38,38 0 0 1 -38,-38 v-62 a38,38 0 0 1 38,-38 Z" />
+        <path android:fillColor="#FAFBF5" android:pathData="M528,382 h75 a38,38 0 0 1 38,38 v287 a38,38 0 0 1 -38,38 h-75 a38,38 0 0 1 -38,-38 v-287 a38,38 0 0 1 38,-38 Z" />
+        <!-- sparkle -->
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="46" android:strokeLineCap="round"
+            android:pathData="M892,118 L866,186 M1003,196 L938,243" />
+    </group>
+</vector>

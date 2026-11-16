@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12+: Google account backup + device-to-device transfer of the Medwi data. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="database" path="medwi.db" />
+        <include domain="database" path="medwi.db-wal" />
+        <include domain="database" path="medwi.db-shm" />
+        <include domain="sharedpref" path="app_settings.xml" />
+        <!-- Uploaded reminder sounds and their registry. -->
+        <include domain="sharedpref" path="reminder_sounds.xml" />
+        <include domain="file" path="sounds/" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="database" path="medwi.db" />
+        <include domain="database" path="medwi.db-wal" />
+        <include domain="database" path="medwi.db-shm" />
+        <include domain="sharedpref" path="app_settings.xml" />
+        <!-- Uploaded reminder sounds and their registry. -->
+        <include domain="sharedpref" path="reminder_sounds.xml" />
+        <include domain="file" path="sounds/" />
+    </device-transfer>
+</data-extraction-rules>

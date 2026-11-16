@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="unit_pill">
+        <item quantity="one">%1$s pill</item>
+        <item quantity="other">%1$s pills</item>
+    </plurals>
+    <plurals name="unit_capsule">
+        <item quantity="one">%1$s capsule</item>
+        <item quantity="other">%1$s capsules</item>
+    </plurals>
+    <plurals name="unit_ml">
+        <item quantity="one">%1$s ml</item>
+        <item quantity="other">%1$s ml</item>
+    </plurals>
+    <plurals name="unit_drop">
+        <item quantity="one">%1$s drop</item>
+        <item quantity="other">%1$s drops</item>
+    </plurals>
+    <plurals name="unit_puff">
+        <item quantity="one">%1$s puff</item>
+        <item quantity="other">%1$s puffs</item>
+    </plurals>
+    <plurals name="unit_unit">
+        <item quantity="one">%1$s unit</item>
+        <item quantity="other">%1$s units</item>
+    </plurals>
+    <plurals name="unit_sachet">
+        <item quantity="one">%1$s sachet</item>
+        <item quantity="other">%1$s sachets</item>
+    </plurals>
+    <plurals name="unit_application">
+        <item quantity="one">%1$s application</item>
+        <item quantity="other">%1$s applications</item>
+    </plurals>
+    <plurals name="unit_patch">
+        <item quantity="one">%1$s patch</item>
+        <item quantity="other">%1$s patches</item>
+    </plurals>
+    <plurals name="unit_suppository">
+        <item quantity="one">%1$s suppository</item>
+        <item quantity="other">%1$s suppositories</item>
+    </plurals>
+    <plurals name="unit_ampoule">
+        <item quantity="one">%1$s ampoule</item>
+        <item quantity="other">%1$s ampoules</item>
+    </plurals>
+    <plurals name="unit_spoon">
+        <item quantity="one">%1$s spoon</item>
+        <item quantity="other">%1$s spoons</item>
+    </plurals>
+    <plurals name="unit_mg">
+        <item quantity="one">%1$s mg</item>
+        <item quantity="other">%1$s mg</item>
+    </plurals>
+</resources>

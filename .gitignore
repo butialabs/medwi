@@ -1,0 +1,22 @@
+# Build output
+build/
+.gradle/
+.kotlin/
+captures/
+*.apk
+*.aab
+
+# Local config / secrets
+local.properties
+*.jks
+*.keystore
+keystore.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Catalog source downloads (tools/catalog/build_catalog.py)
+tools/catalog/*.zip
+tools/catalog/*.csv

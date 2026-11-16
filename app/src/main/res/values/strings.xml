@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Medwi</string>
+    <string name="tab_today">Today</string>
+    <string name="tab_meds">Meds</string>
+    <string name="tab_progress">Progress</string>
+    <string name="add_med">Add medicine</string>
+    <string name="notif_channel_reminders">Medication reminders</string>
+    <string name="action_take">Take</string>
+    <string name="action_snooze">Snooze</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_log_dose">Log dose</string>
+    <string name="as_needed_section">As needed</string>
+    <string name="empty_today">No doses scheduled for today.</string>
+    <string name="empty_meds">No medicines yet. Tap + to add one.</string>
+    <string name="delete_title">Delete medication?</string>
+    <string name="delete_message">Remove %1$s and all of its reminders?</string>
+
+    <!-- Wizard chrome -->
+    <string name="wizard_next">Next</string>
+    <string name="wizard_back">Back</string>
+    <string name="wizard_save">Save</string>
+    <string name="wizard_ok">OK</string>
+    <string name="wizard_cancel">Cancel</string>
+    <string name="wizard_remove">Remove</string>
+    <string name="wizard_decrease">Decrease</string>
+    <string name="wizard_increase">Increase</string>
+
+    <!-- Step: name -->
+    <string name="q_name">Which medicine do you want to add?</string>
+    <string name="label_med_name">Medication name</string>
+
+    <!-- Step: form -->
+    <string name="q_form">What kind of medicine is it?</string>
+    <string name="form_tablet">Tablet</string>
+    <string name="form_injection">Injection</string>
+    <string name="form_solution">Syrup / liquid</string>
+    <string name="form_drops">Drops</string>
+    <string name="form_inhaler">Inhaler</string>
+    <string name="form_powder">Powder</string>
+    <string name="form_other">Other</string>
+    <string name="label_form_other">Form (describe)</string>
+    <string name="label_dose_qty">Dose quantity</string>
+
+    <!-- Step: frequency -->
+    <string name="q_frequency">How often will you take it?</string>
+    <string name="freq_every_day">Every day</string>
+    <string name="freq_alternate_days">Every other day</string>
+    <string name="freq_days_of_week">Only on some weekdays</string>
+    <string name="freq_cycle">In cycles (take, then pause)</string>
+    <string name="freq_every_x_days">Every X days</string>
+    <string name="freq_every_x_weeks">Every X weeks</string>
+    <string name="freq_every_x_months">Every X months</string>
+    <string name="freq_as_needed">Only when I need it</string>
+
+    <!-- Step: frequency detail -->
+    <string name="q_days_of_week">On which weekdays?</string>
+    <string name="dow_mon">Mon</string>
+    <string name="dow_tue">Tue</string>
+    <string name="dow_wed">Wed</string>
+    <string name="dow_thu">Thu</string>
+    <string name="dow_fri">Fri</string>
+    <string name="dow_sat">Sat</string>
+    <string name="dow_sun">Sun</string>
+    <string name="q_cycle">How does the cycle work?</string>
+    <string name="label_take_days">Take days</string>
+    <string name="label_break_days">Break days</string>
+    <string name="q_interval">How far apart?</string>
+    <string name="every_label">Every</string>
+    <string name="unit_days">days</string>
+    <string name="unit_weeks">weeks</string>
+    <string name="unit_months">months</string>
+
+    <!-- Step: times -->
+    <string name="q_times">At what times?</string>
+    <string name="dose_label">Dose</string>
+    <string name="add_time">Add time</string>
+
+    <!-- Step: review / extras -->
+    <string name="q_review">Review and finish</string>
+    <string name="almost_done">More details (optional)</string>
+    <string name="label_duration_days">Duration (days)</string>
+    <string name="duration_continuous">Ongoing</string>
+    <string name="label_instructions">Instructions</string>
+    <string name="label_stock">Current stock</string>
+    <string name="label_refill_at">Refill at</string>
+
+    <!-- Refill notification -->
+    <string name="refill_notif_title">Refill %1$s</string>
+    <string name="refill_notif_body">Only %1$d left — time to refill.</string>
+
+    <!-- Progress / adherence -->
+    <string name="progress_adherence">adherence this month</string>
+    <string name="progress_streak_days">day streak</string>
+    <string name="progress_prev_month">Previous month</string>
+    <string name="progress_next_month">Next month</string>
+    <string name="legend_complete">All taken</string>
+    <string name="legend_partial">Partial</string>
+    <string name="legend_missed">Missed</string>
+
+
+    <!-- v3: interval organizer, progress history, reliable reminders -->
+    <string name="notif_channel_reminders_desc">Dose reminders. Keep sound and pop-up on so you never miss a dose.</string>
+    <string name="auto_schedule">Organize times automatically</string>
+    <string name="auto_schedule_on_hint">Doses spread evenly across the day</string>
+    <string name="auto_schedule_off_hint">Choose each time freely</string>
+    <string name="auto_schedule_edit_hint">Changing any time shifts the others to keep the same interval.</string>
+    <string name="doses_per_day">Doses per day</string>
+    <string name="every_x_hours">Or every…</string>
+    <string name="interval_hours_chip">%1$d h</string>
+    <string name="interval_hours_minutes">%1$d h %2$d min</string>
+    <string name="interval_summary">One dose every %1$s</string>
+    <string name="first_dose_at">First dose: %1$s</string>
+    <string name="dose_times">Dose times</string>
+    <string name="status_taken">Taken</string>
+    <string name="status_skipped">Skipped</string>
+    <string name="status_snoozed">Snoozed</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_missed">Not logged</string>
+    <string name="progress_no_doses_day">No doses scheduled for this day.</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_mark_taken">Mark taken</string>
+    <string name="action_mark_skipped">Skipped</string>
+    <string name="taken_at">taken at %1$s</string>
+    <string name="reliability_banner_title">Your reminders may not go off</string>
+    <string name="reliability_banner_body">Some phone settings can block them.</string>
+    <string name="reliability_review">Review</string>
+    <string name="reliability_title">Reliable reminders</string>
+    <string name="reliability_intro">Android and some phone brands pause apps in the background to save battery. Fix the items below so dose reminders always go off, even with the screen off.</string>
+    <string name="reliability_all_ok">All set: Medwi can remind you even with the screen off and battery saver on.</string>
+    <string name="reliability_ok">OK</string>
+    <string name="reliability_needs_fix">Needs fixing</string>
+    <string name="reliability_check_manually">Check</string>
+    <string name="reliability_fix">Fix</string>
+    <string name="reliability_open">Open</string>
+    <string name="reliability_mark_done">Done</string>
+    <string name="reliability_undo_done">Not done</string>
+    <string name="reliability_test">Send a test notification</string>
+    <string name="reliability_test_hint">Check that it makes sound and shows up on top of the screen and on the lock screen.</string>
+    <string name="rel_notifications_title">Notifications</string>
+    <string name="rel_notifications_body">Allow notifications and keep the “Medication reminders” category with sound and pop-up.</string>
+    <string name="rel_exact_title">Alarms &amp; reminders</string>
+    <string name="rel_exact_body">Lets the reminder go off at the exact minute instead of being delayed by the system.</string>
+    <string name="rel_battery_title">Battery optimization</string>
+    <string name="rel_battery_body">In the list, show all apps, find Medwi and set it to “Unrestricted” / “Don’t optimize” so the system doesn’t hold back reminders in standby.</string>
+    <string name="rel_background_title">Background activity</string>
+    <string name="rel_background_body">Background use is restricted for Medwi. Allow it in the app’s battery settings.</string>
+    <string name="rel_autostart_title">Auto-start (phone brand)</string>
+    <string name="rel_autostart_body">Your phone has its own app manager that can close Medwi. Allow auto-start / background launch for Medwi, then tap “Done”.</string>
+    <string name="rel_tip_xiaomi">Xiaomi/Redmi/POCO: turn on Autostart for Medwi. In App info › Battery saver, choose “No restrictions”.</string>
+    <string name="rel_tip_huawei">Huawei/Honor: in App launch, turn off “Manage automatically” for Medwi and enable all three options.</string>
+    <string name="rel_tip_oppo">Oppo/Realme/OnePlus: allow Auto launch, and in Battery usage allow background activity.</string>
+    <string name="rel_tip_vivo">Vivo/iQOO: allow background startup and set battery usage to “High background power consumption”.</string>
+    <string name="rel_tip_samsung">Samsung: in Battery › Background usage limits, add Medwi to “Never sleeping apps”.</string>
+    <string name="rel_tip_generic">Look for “Auto-start”, “Background launch” or “Protected apps” and allow Medwi.</string>
+    <string name="test_notif_title">Medwi test</string>
+    <string name="test_notif_body">If you can see and hear this, your dose reminders will work.</string>
+
+
+    <!-- v4 (notif) -->
+    <string name="slot_title">%1$d medicines at %2$s</string>
+    <string name="action_take_all">Take all</string>
+    <string name="action_choose">Choose</string>
+    <string name="notif_private_title">Time for your medicine</string>
+    <string name="notif_private_body">Dose of %1$s. Unlock to see details.</string>
+    <string name="notif_private_med">your medicine</string>
+    <string name="refill_add_box_action">Bought it: +%1$d</string>
+
+
+    <!-- v4 (ui) -->
+    <string name="take_all_count">Take all (%1$d)</string>
+    <string name="take_all_confirm_title">Take all %1$d medicines from %2$s?</string>
+    <string name="action_more">More options</string>
+    <string name="dose_taken_at_pick">I took it at…</string>
+    <string name="dose_quantity">Quantity for this dose</string>
+    <string name="dose_note">Note</string>
+    <string name="dose_note_hint">E.g. took with food, felt dizzy…</string>
+    <string name="action_save">Save</string>
+    <string name="note_label">Note: %1$s</string>
+    <string name="meds_active">Active</string>
+    <string name="meds_paused">Paused</string>
+    <string name="meds_ended">Ended</string>
+    <string name="state_paused_since">Paused since %1$s</string>
+    <string name="state_ended_on">Ended on %1$s</string>
+    <string name="action_log_now">Log a dose now</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_end">End treatment</string>
+    <string name="end_title">End this treatment?</string>
+    <string name="end_message">No more reminders. The history is kept and you can resume it later.</string>
+    <string name="pause_title">Pause %1$s?</string>
+    <string name="pause_message">Reminders stop until you resume. Nothing is deleted.</string>
+    <string name="delete_history_warning">This also deletes its whole history. To keep the history, end the treatment instead.</string>
+    <string name="detail_dose_changes">Dose changes</string>
+    <string name="detail_ramp_until">%1$s from %2$s</string>
+    <string name="detail_ramp_stop">stops on %1$s</string>
+    <string name="stock_title">Stock</string>
+    <string name="stock_left">%1$d left</string>
+    <string name="stock_lasts_until">lasts until %1$s</string>
+    <string name="stock_lasts_long">lasts more than a month</string>
+    <string name="stock_not_tracked">Stock not tracked. Set how many you have to get refill reminders.</string>
+    <string name="stock_add_box">+1 box (%1$d)</string>
+    <string name="stock_add">Add</string>
+    <string name="stock_adjust">Adjust stock</string>
+    <string name="stock_adjust_hint">How many do you have now?</string>
+    <string name="stock_add_hint">How many did you get?</string>
+    <string name="stock_low">Time to refill</string>
+    <string name="refill_history">Refill history</string>
+    <string name="refill_entry">%1$s · %2$s → %3$d</string>
+    <string name="label_units_per_box">Units per box</string>
+    <string name="label_refill_time">Refill reminder: %1$s</string>
+    <string name="ramp_switch">The dose changes over time</string>
+    <string name="ramp_switch_hint">For tapering or step-up treatments</string>
+    <string name="ramp_down">Decrease</string>
+    <string name="ramp_up">Increase</string>
+    <string name="ramp_amount">By how much</string>
+    <string name="ramp_every_days">Every (days)</string>
+    <string name="ramp_final">Until dose</string>
+    <string name="ramp_preview_stop">stop on %1$s</string>
+    <string name="ramp_invalid">The final dose must be lower (decrease) or higher (increase) than the starting dose.</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_reliability_sub">Make sure reminders always go off</string>
+    <string name="lock_title">App lock</string>
+    <string name="lock_sub">Use your phone\'s fingerprint, face or PIN to open Medwi. Medicine names are hidden on the lock screen and widget.</string>
+    <string name="lock_unavailable">Set up a screen lock on your phone first.</string>
+    <string name="lock_prompt_title">Unlock Medwi</string>
+    <string name="lock_unlock">Unlock</string>
+    <string name="lock_locked">Medwi is locked</string>
+    <string name="backup_title">Backup</string>
+    <string name="backup_export">Export backup</string>
+    <string name="backup_export_sub">Save a file with all your data. You can choose Google Drive.</string>
+    <string name="backup_import">Restore backup</string>
+    <string name="backup_import_sub">Replace the data on this phone with a backup file.</string>
+    <string name="backup_auto_note">Android also backs up Medwi to your Google account (Settings › Google › Backup) and restores it when you reinstall or switch phones. No account or server of ours is involved.</string>
+    <string name="backup_exported">Backup saved</string>
+    <string name="backup_failed">Couldn\'t complete: %1$s</string>
+    <string name="backup_restore_title">Restore this backup?</string>
+    <string name="backup_restore_message">%1$d medicines and %2$d doses, exported on %3$s. The current data on this phone will be replaced.</string>
+    <string name="backup_restore_confirm">Replace and restore</string>
+    <string name="backup_restored">Backup restored</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="widget_name">Medwi · next doses</string>
+    <string name="widget_description">Your next doses today, with a Take button</string>
+    <string name="widget_all_done">All done for today ✓</string>
+    <string name="widget_hidden_med">Medicine</string>
+
+
+    <!-- v5: strength, dose unit, appearance -->
+    <string name="form_capsule">Capsule</string>
+    <string name="form_cream">Cream / ointment</string>
+    <string name="form_patch">Patch</string>
+    <string name="q_strength">What\'s the strength and dose?</string>
+    <string name="strength_title">Strength</string>
+    <string name="strength_hint">It\'s on the box, e.g. 125 mg or 10 mg/ml. Optional.</string>
+    <string name="label_strength_value">Strength</string>
+    <string name="dose_title">How much per dose?</string>
+    <string name="dose_preview">Take %1$s of %2$s</string>
+    <string name="q_appearance">What does it look like?</string>
+    <string name="appearance_hint">Helps you recognize the right medicine at a glance.</string>
+    <string name="label_shape">Shape</string>
+    <string name="label_color">Color</string>
+    <string name="label_color2">Color of the other part</string>
+    <string name="more_shapes">More shapes</string>
+    <string name="shape_round">Round</string>
+    <string name="shape_round_scored">Scored round</string>
+    <string name="shape_oval">Oval</string>
+    <string name="shape_oblong">Oblong</string>
+    <string name="shape_capsule">Capsule</string>
+    <string name="shape_softgel">Softgel</string>
+    <string name="shape_triangle">Triangle</string>
+    <string name="shape_square">Square</string>
+    <string name="shape_diamond">Diamond</string>
+    <string name="shape_hexagon">Hexagon</string>
+    <string name="shape_heart">Heart</string>
+    <string name="shape_tear">Drop</string>
+    <string name="shape_sachet">Sachet</string>
+    <string name="shape_bottle">Bottle / syrup</string>
+    <string name="shape_dropper">Dropper</string>
+    <string name="shape_ampoule">Ampoule</string>
+    <string name="shape_spoon">Spoon</string>
+    <string name="shape_syringe">Syringe</string>
+    <string name="shape_pen">Injection pen</string>
+    <string name="shape_inhaler">Inhaler</string>
+    <string name="shape_nasal_spray">Nasal spray</string>
+    <string name="shape_ointment">Ointment tube</string>
+    <string name="shape_patch">Patch</string>
+    <string name="shape_suppository">Suppository</string>
+    <string name="color_white">White</string>
+    <string name="color_cream">Cream</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="color_orange">Orange</string>
+    <string name="color_pink">Pink</string>
+    <string name="color_red">Red</string>
+    <string name="color_purple">Purple</string>
+    <string name="color_light_blue">Light blue</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_light_green">Light green</string>
+    <string name="color_green">Green</string>
+    <string name="color_brown">Brown</string>
+    <string name="color_amber">Amber</string>
+    <string name="color_skin">Skin tone</string>
+    <string name="color_gray">Gray</string>
+    <string name="color_black">Black</string>
+
+
+    <!-- automatic backup -->
+    <string name="auto_backup_title">Automatic backup</string>
+    <string name="auto_backup_off_sub">Off. Choose a file (for example in Google Drive) and Medwi will keep it updated every day.</string>
+    <string name="auto_backup_last">Daily · last copy %1$s</string>
+    <string name="auto_backup_pending">Daily · first copy pending</string>
+    <string name="auto_backup_running">Saving a copy…</string>
+    <string name="auto_backup_error">Couldn\'t write the backup file (%1$s). Choose the file again.</string>
+    <string name="auto_backup_now">Back up now</string>
+    <string name="auto_backup_change">Change file</string>
+    <string name="auto_backup_turn_off">Turn off</string>
+
+    <!-- Reminder sounds -->
+    <string name="notif_channel_group">Dose reminders</string>
+    <string name="notif_channel_reminders_sound">%1$s · %2$s</string>
+    <string name="sound_title">Reminder sound</string>
+    <string name="sound_settings_sub">%1$s · medicines can have their own sound</string>
+    <string name="sound_chime">Chime</string>
+    <string name="sound_bell">Bell</string>
+    <string name="sound_soft">Soft</string>
+    <string name="sound_pulse">Pulse</string>
+    <string name="sound_marimba">Marimba</string>
+    <string name="sound_silent">Vibrate only</string>
+    <string name="sound_phone_default">Phone default</string>
+    <string name="sound_phone">Phone sound</string>
+    <string name="sound_missing">Sound not found</string>
+    <string name="sound_use_general">Use the general sound</string>
+    <string name="sound_use_general_sub">Now: %1$s</string>
+    <string name="sound_section_medwi">Medwi sounds</string>
+    <string name="sound_section_phone">From the phone</string>
+    <string name="sound_section_mine">My sounds</string>
+    <string name="sound_pick_phone">Choose a phone sound…</string>
+    <string name="sound_upload">Upload a sound…</string>
+    <string name="sound_upload_sub">Audio file up to 30 seconds</string>
+    <string name="sound_added">Sound added</string>
+    <string name="sound_error_too_large">This file is too big (max. 5 MB).</string>
+    <string name="sound_error_too_long">This sound is too long (max. 30 seconds).</string>
+    <string name="sound_error_invalid">Couldn\'t read this audio file.</string>
+    <string name="sound_delete">Delete sound</string>
+    <string name="sound_delete_title">Delete \"%1$s\"?</string>
+    <string name="sound_delete_message">Medicines using this sound will go back to the general sound.</string>
+    <string name="sound_preview">Play</string>
+    <string name="sound_done">Done</string>
+    <string name="sound_general">General sound</string>
+</resources>

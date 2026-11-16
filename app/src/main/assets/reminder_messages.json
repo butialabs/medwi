@@ -1,0 +1,68 @@
+{
+ "en": [
+  {
+   "title": "Time for your medicine",
+   "subtitle": "",
+   "body": "Your {{reminder.actualTime}} dose is due now."
+  },
+  {
+   "title": "Did you take your {{reminder.actualTime}} dose?",
+   "subtitle": "",
+   "body": "Tap Take once you have it, so your history stays accurate."
+  },
+  {
+   "title": "Medicine reminder",
+   "subtitle": "",
+   "body": "It's {{reminder.actualTime}}: a good moment for your dose."
+  },
+  {
+   "title": "Still waiting on your {{reminder.actualTime}} dose",
+   "subtitle": "",
+   "body": "Take it now, or snooze it for a little while."
+  }
+ ],
+ "pt": [
+  {
+   "title": "Hora do seu remédio",
+   "subtitle": "",
+   "body": "A dose das {{reminder.actualTime}} é agora."
+  },
+  {
+   "title": "Já tomou a dose das {{reminder.actualTime}}?",
+   "subtitle": "",
+   "body": "Toque em Tomar quando tomar, para manter seu histórico em dia."
+  },
+  {
+   "title": "Lembrete de remédio",
+   "subtitle": "",
+   "body": "São {{reminder.actualTime}}: um bom momento para a sua dose."
+  },
+  {
+   "title": "A dose das {{reminder.actualTime}} ainda está pendente",
+   "subtitle": "",
+   "body": "Tome agora ou adie por alguns minutos."
+  }
+ ],
+ "es": [
+  {
+   "title": "Hora de tu medicamento",
+   "subtitle": "",
+   "body": "Tu dosis de las {{reminder.actualTime}} es ahora."
+  },
+  {
+   "title": "¿Ya tomaste la dosis de las {{reminder.actualTime}}?",
+   "subtitle": "",
+   "body": "Toca Tomar cuando la tomes, así tu historial queda al día."
+  },
+  {
+   "title": "Recordatorio de medicamento",
+   "subtitle": "",
+   "body": "Son las {{reminder.actualTime}}: buen momento para tu dosis."
+  },
+  {
+   "title": "La dosis de las {{reminder.actualTime}} sigue pendiente",
+   "subtitle": "",
+   "body": "Tómala ahora o pospónla unos minutos."
+  }
+ ]
+}

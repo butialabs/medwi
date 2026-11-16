@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 11 and below: Auto Backup of the Medwi data to the Google account. -->
+<full-backup-content>
+    <include domain="database" path="medwi.db" />
+    <include domain="database" path="medwi.db-wal" />
+    <include domain="database" path="medwi.db-shm" />
+    <include domain="sharedpref" path="app_settings.xml" />
+    <!-- Uploaded reminder sounds and their registry. -->
+    <include domain="sharedpref" path="reminder_sounds.xml" />
+    <include domain="file" path="sounds/" />
+</full-backup-content>

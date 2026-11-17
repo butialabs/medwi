@@ -1,7 +1,7 @@
 name: Release
 
 # Push a tag such as 0.1.0 (major.minor.patch, no "v") to publish a GitHub Release
-# with the signed APK. IzzyOnDroid picks the APK up from there; F-Droid builds the tag
+# with the signed APK (Obtainium users install it from there). F-Droid builds the tag
 # from source and signs it with its own key.
 # versionName in app/build.gradle.kts must match the tag.
 on:

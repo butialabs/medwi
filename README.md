@@ -32,11 +32,15 @@ no network access.
 
 ## Install
 
+<p align="center">
+  <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/butialabs/medwi"><img src="https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png" height="60" alt="Get it on Obtainium"></a>
+</p>
+
+- [Obtainium](https://github.com/ImranR98/Obtainium): tap the badge above on your phone, or add `https://github.com/butialabs/medwi` in Obtainium. It installs the GitHub release APK and keeps it updated.
 - [F-Droid](https://f-droid.org/packages/br.com.butialabs.medwi/): built from source by F-Droid and signed with F-Droid's key (pending inclusion).
-- [IzzyOnDroid](https://apt.izzysoft.de/fdroid/index/apk/br.com.butialabs.medwi): the GitHub release APK, signed by Butiá Labs (pending inclusion).
 - GitHub Releases: every [release](../../releases) has a signed APK attached.
 
-The F-Droid build and the GitHub/IzzyOnDroid build have different signatures, so Android won't
+The F-Droid build and the GitHub/Obtainium build have different signatures, so Android won't
 update one with the other. To switch, export a backup (*Settings › Backup*), uninstall, install
 the other build and import the backup.
 
@@ -111,7 +115,7 @@ Versions follow `major.minor.patch`. `versionCode = major * 10000 + minor * 100 
    git tag 0.1.0 && git push origin 0.1.0
    ```
 4. The Release workflow checks the tag against the version, runs the tests, builds the signed APK, and publishes a GitHub Release with `medwi-<version>.apk` and its SHA-256. The changelog file is the release text (500 characters max).
-5. F-Droid notices the new tag (`UpdateCheckMode: Tags`) and builds it from source; IzzyOnDroid picks up the APK from the GitHub Release. Both read the listing and changelogs from `fastlane/metadata/android/`.
+5. F-Droid notices the new tag (`UpdateCheckMode: Tags`) and builds it from source, reading the listing and changelogs from `fastlane/metadata/android/`. Obtainium users get the APK from the GitHub Release.
 
 Signing secrets (repository *Settings › Secrets and variables › Actions*):
 
@@ -143,7 +147,7 @@ adb shell am broadcast -n br.com.butialabs.medwi/.debug.DemoDataReceiver --ez no
 
 ### Store listing
 
-`fastlane/metadata/android/<locale>/` holds the F-Droid / IzzyOnDroid listing (title,
+`fastlane/metadata/android/<locale>/` holds the F-Droid listing (title,
 descriptions, changelogs, icon, feature graphic and screenshots) in the fastlane layout.
 Screenshots and the feature graphic are generated: put raw 1080x2400 captures in
 `tools/store/screenshots/<locale>/`, then run `python tools/store/make_store_images.py`

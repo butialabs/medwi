@@ -49,8 +49,8 @@ android {
             )
         }
     }
-    // No Google-encrypted dependency metadata in the APK signing block: F-Droid and
-    // IzzyOnDroid scanners reject it, and nothing outside Play can read it.
+    // No Google-encrypted dependency metadata in the APK signing block: the F-Droid
+    // scanner rejects it, and nothing outside Play can read it.
     dependenciesInfo {
         includeInApk = false
         includeInBundle = false
